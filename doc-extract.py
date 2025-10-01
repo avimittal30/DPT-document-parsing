@@ -8,7 +8,7 @@ load_dotenv()
 import re
 os.environ['VISION_AGENT_API_KEY']=os.getenv("LANDING_API_KEY")
 
-file_path="C:\\tutorials\\agentic-doc-extraction\\IBM_Annual_report.pdf"
+file_path="<path to your pdg file>"
 
 
 results = parse(file_path)
