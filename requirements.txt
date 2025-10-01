@@ -1,0 +1,4 @@
+agentic-doc
+pandas
+lxml
+python-dotenv
